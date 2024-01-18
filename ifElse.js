@@ -1,4 +1,5 @@
 // Check If a number is positive, negative or zero
+console.log("Q.1");
 const number = 54;
 if(number > 0){
     console.log("The Number is Positive");
