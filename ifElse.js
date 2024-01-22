@@ -37,6 +37,7 @@ console.log("**********************************************");
 console.log("**********************************************");
 
 //Determine the largest of three numbers
+console.log("Q.4 Largest Of Three Numbers")
 const num1 = 10;
 const num2 = 11;
 const num3 = 7;
@@ -49,3 +50,22 @@ if(num1 > num2){
 }else{
     console.log("All are equal");
 }
+console.log("")
+console.log("**********************************************");
+console.log("**********************************************");
+
+//Check if a number is multiple of both 3 and 5
+console.log("Q.5 multiple of 3 and 5.");
+const n = 30;
+if(n % 5 == 0 && n % 3 == 0){
+    console.log(`${n} is multiple of both numbers`);
+}else if(n % 5 == 0){
+    console.log(`${n} is only multiple of 5`);
+}else if(n % 3 == 0){
+    console.log(`${n} is only multiple of 3`);
+}else{
+    console.log(`${n} is not multiple of 3 and 5`);
+}
+console.log("")
+console.log("**********************************************");
+console.log("**********************************************");
