@@ -69,3 +69,50 @@ if(n % 5 == 0 && n % 3 == 0){
 console.log("")
 console.log("**********************************************");
 console.log("**********************************************");
+
+//Determine the day based on a number(1-7)
+console.log("Q.6 determine number based on a number");
+const dayNum = 5;
+switch (dayNum) {
+    case 1:
+        console.log(`for ${dayNum} number we have Monday`);
+        break;
+    case 2:
+        console.log(`for ${dayNum} number we have Tuesday`);
+        break;
+    case 3:
+        console.log(`for ${dayNum} number we have Wednesday`);
+        break;
+    case 4:
+        console.log(`for ${dayNum} number we have Thirsday`);
+        break;
+    case 5:
+        console.log(`for ${dayNum} number we have Friday`);
+        break;
+    case 6:
+        console.log(`for ${dayNum} number we have Saturday`);
+        break;
+    case 7:
+        console.log(`for ${dayNum} number we have Sunday`);
+        break;
+
+    default:
+        console.log("Enter a valid Number");
+        break;
+}
+console.log("")
+console.log("**********************************************");
+console.log("**********************************************");
+
+//Check if a string is empty or has a content.
+console.log("Q7. String is empty or has a content");
+let string = "Hello";
+if(string = ""){
+    console.log("The string is empty");
+}else{
+    console.log(`The Stirng contains a content ${string} word`);
+}
+
+console.log("")
+console.log("**********************************************");
+console.log("**********************************************");
